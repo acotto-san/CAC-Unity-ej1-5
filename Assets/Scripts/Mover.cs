@@ -24,17 +24,7 @@ public class Mover : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         colisiones = GetComponent<Colisiones>();
-        string str1 = "asd";
-        string str2 = "asd";
 
-        if(str1 == str2 )
-        {
-            Debug.Log("a");
-        }
-        else
-        {
-            Debug.Log("b");
-        }
     }
 
     // Update is called once per frame
